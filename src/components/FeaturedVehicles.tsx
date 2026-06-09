@@ -58,8 +58,8 @@ export default function FeaturedVehicles({ currentLanguage, currentTheme, setAct
   const getWhatsAppLink = (vehicle: Vehicle) => {
     const rawNumber = "919565329999"; // Dealer showroom default
     const text = currentLanguage === 'en'
-      ? `Hi Balaji Enterprises, I saw your pre-owned ${vehicle.make} ${vehicle.model} (${vehicle.year}) categorized live on the homepage listed for ${formatPrice(vehicle.price, 'en')}. I am ready for a trial run. Please confirm.`
-      : `नमस्ते बालाजी एंटरप्राइजेज, मैंने होमपेज पर आपकी प्रमाणित गाड़ी देखी है: ${vehicle.make} ${vehicle.model} (${vehicle.year}), जिसकी कीमत ${formatPrice(vehicle.price, 'hi')} है। मैं ट्रायल रन के लिए आना चाहता हूँ।`;
+      ? `Hi AFSAR Auto Sales, I saw your pre-owned ${vehicle.make} ${vehicle.model} (${vehicle.year}) categorized live on the homepage listed for ${formatPrice(vehicle.price, 'en')}. I am ready for a trial run. Please confirm.`
+      : `नमस्ते अफसर ऑटो सेल्स, मैंने होमपेज पर आपकी प्रमाणित गाड़ी देखी है: ${vehicle.make} ${vehicle.model} (${vehicle.year}), जिसकी कीमत ${formatPrice(vehicle.price, 'hi')} है। मैं ट्रायल रन के लिए आना चाहता हूँ।`;
     return `https://wa.me/${rawNumber}?text=${encodeURIComponent(text)}`;
   };
 
@@ -314,7 +314,7 @@ export default function FeaturedVehicles({ currentLanguage, currentTheme, setAct
                         className="py-2.5 text-xs font-extrabold uppercase tracking-widest text-slate-950 bg-amber-500 hover:bg-amber-600 active:bg-amber-700 rounded-xl transition-all flex items-center justify-center gap-1.5 text-center shadow-md cursor-pointer"
                       >
                         <Phone className="h-3.5 w-3.5 fill-slate-950" />
-                        <span>{currentLanguage === 'en' ? 'Call Dealership' : 'बालाजी एंटरप्राइजेज को कॉल करें'}</span>
+                        <span>{currentLanguage === 'en' ? 'Call Dealership' : 'अफसर ऑटो सेल्स को कॉल करें'}</span>
                       </a>
                     </div>
 
@@ -546,7 +546,7 @@ export default function FeaturedVehicles({ currentLanguage, currentTheme, setAct
             <div className="lg:col-span-5 space-y-6">
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/25 text-amber-500 text-xs font-bold uppercase tracking-widest">
                 <Award className="h-4 w-4" />
-                <span>{currentLanguage === 'en' ? "Balaji Enterprises' quality promise" : "बालाजी एंटरप्राइजेज का क्वालिटी वादा"}</span>
+                <span>{currentLanguage === 'en' ? "AFSAR Auto Sales' quality promise" : "अफसर ऑटो सेल्स का क्वालिटी वादा"}</span>
               </div>
               
               <h2 className="text-3xl md:text-5xl font-display font-black uppercase tracking-tight leading-none">
@@ -555,8 +555,8 @@ export default function FeaturedVehicles({ currentLanguage, currentTheme, setAct
 
               <p className={`text-base leading-relaxed ${currentTheme === 'dark' ? 'text-slate-400' : 'text-slate-600'}`}>
                 {currentLanguage === 'en'
-                  ? "At Balaji Enterprises, we respect your hard-earned sweat. We don't employ sales brokers. Our core mechanics test every carburetor, leaf spring alignment, and gearbox personally before listing. This is why 1,500+ operators trust us."
-                  : "बालाजी एंटरप्राइजेज पर हम दलालों और शोरूम की झूठी सजावट से दूर रहते हैं। हमारी एक्सपर्ट टीम खुद इंजन का कंप्रेशन, लीफ स्प्रिंग अलाइनमेंट और सीएनजी प्रेशर चेक करती है। इसलिए प्रत्येक गाड़ी बेजोड़ चलती है।"}
+                  ? "At AFSAR Auto Sales, we respect your hard-earned sweat. We don't employ sales brokers. Our core mechanics test every carburetor, leaf spring alignment, and gearbox personally before listing. This is why 1,500+ operators trust us."
+                  : "अफसर ऑटो सेल्स पर हम दलालों और शोरूम की झूठी सजावट से दूर रहते हैं। हमारी एक्सपर्ट टीम खुद इंजन का कंप्रेशन, लीफ स्प्रिंग अलाइनमेंट और सीएनजी प्रेशर चेक करती है। इसलिए प्रत्येक गाड़ी बेजोड़ चलती है।"}
               </p>
 
               {/* Mini stat triggers */}

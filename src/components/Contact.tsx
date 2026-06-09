@@ -54,13 +54,22 @@ export default function Contact({ currentLanguage, currentTheme }: ContactProps)
   };
 
   const contactDetails = [
-    {
-      label: t.contactAddressLabel,
-      value: selectedBranch === 'showroom' 
-        ? (currentLanguage === 'en' ? "Bala Ji Enterprises, Near Matiyari Chauraha, Deva Road, Chinhat, Lucknow, Uttar Pradesh - 226028" : "बालाजी एंटरप्राइजेज, मटियारी चौराहे के पास, देवा रोड, चिनहट, लखनऊ, उत्तर प्रदेश - 226028")
-        : (currentLanguage === 'en' ? "Balaji Stock Yard & Commercial Depot, Deva Road Industrial Block, Chinhat, Lucknow, UP - 226028" : "बालाजी स्टॉक यार्ड और कमर्शियल डिपो, देवा रोड इंडस्ट्रियल ब्लॉक, चिनहट, लखनऊ, यूपी - 226028"),
-      icon: <MapPin className="h-5 w-5 text-amber-500" />,
-    },
+ {
+label: t.contactAddressLabel,
+value: selectedBranch === 'showroom'
+? (
+currentLanguage === 'en'
+? "AFSAR Auto Sales, G-73, Karamat Market, Mahanagar, Lucknow, Uttar Pradesh - 226006"
+: "अफसर ऑटो सेल्स, जी-73, करामत मार्केट, महानगर, लखनऊ, उत्तर प्रदेश - 226006"
+)
+: (
+currentLanguage === 'en'
+? "AFSAR Auto Sales, G-73, Karamat Market, Mahanagar, Lucknow, Uttar Pradesh - 226006"
+: "अफसर ऑटो सेल्स, जी-73, करामत मार्केट, महानगर, लखनऊ, उत्तर प्रदेश - 226006"
+),
+icon: <MapPin className="h-5 w-5 text-amber-500" />,
+},
+
     {
       label: t.contactPhoneLabel,
       value: "+918318914223",
@@ -84,11 +93,11 @@ export default function Contact({ currentLanguage, currentTheme }: ContactProps)
           <h2 className="text-3xl sm:text-4xl font-display font-black uppercase tracking-tight">
             {t.contactTitle}
           </h2>
-          <p className={`mt-3 text-sm sm:text-base ${currentTheme === 'dark' ? 'text-slate-400' : 'text-slate-600'}`}>
-            {currentLanguage === 'en'
-              ? "Visit Balaji Enterprises showroom to check out and test drive highly certified pre-owned vehicles."
-              : "बेहतरीन गाड़ियों के ऑन-स्पॉट टेस्ट ड्राइव के लिए हमारे मटियारी चौराहा देवा रोड, चिनहट शोरूम पर आएं।"}
-          </p>
+        <p className={`mt-3 text-sm sm:text-base ${currentTheme === 'dark' ? 'text-slate-400' : 'text-slate-600'}`}>
+  {currentLanguage === 'en'
+    ? "Visit AFSAR Auto Sales, Mahanagar, Lucknow, to explore our certified pre-owned vehicles and schedule a test drive."
+    : "प्रमाणित पुरानी गाड़ियों को देखने और टेस्ट ड्राइव के लिए अफसर ऑटो सेल्स, महानगर, लखनऊ पधारें।"}
+</p>
 
           {/* Quick branch switcher toggles at top */}
           <div className="flex justify-center gap-3 mt-6">
@@ -152,7 +161,7 @@ export default function Contact({ currentLanguage, currentTheme }: ContactProps)
                   allowFullScreen={true} 
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Balaji Enterprises Google Map Location"
+                  title="AFSAR Auto Sales Google Map Location"
                 />
               </div>
               <div className="p-4 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
@@ -161,14 +170,14 @@ export default function Contact({ currentLanguage, currentTheme }: ContactProps)
                     Live Google Map
                   </span>
                   <span className="block text-xs font-semibold text-slate-400 mt-1">
-                    {currentLanguage === 'en' ? 'Bala Ji Enterprises, Near Matiyari Chauraha' : 'बालाजी एंटरप्राइजेज, मटियारी चौराहा के पास'}
+                    {currentLanguage === 'en' ? 'AFSAR Auto Sales, Mahanagar, Lucknow' : 'अफसर ऑटो सेल्स, महानगर, लखनऊ'}
                   </span>
                 </div>
                 <a
                   href={`https://wa.me/919565329999?text=${encodeURIComponent(
                     currentLanguage === 'en'
-                      ? "Hi Balaji Enterprises, please share your precise Google map pin so I can visit today."
-                      : "नमस्ते बालाजी एंटरप्राइजेज, कृपया अपनी दुकान का गूगल मैप्स लोकेशन पिन शेयर करें ताकि मैं आज ही गाड़ी देख सकूं।"
+                      ? "Hi AFSAR Auto Sales, please share your precise Google map pin so I can visit today."
+                      : "नमस्ते अफसर ऑटो सेल्स, कृपया अपनी दुकान का गूगल मैप्स लोकेशन पिन शेयर करें ताकि मैं आज ही गाड़ी देख सकूं।"
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"

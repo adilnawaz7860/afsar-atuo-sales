@@ -32,8 +32,8 @@ export default function Inventory({ currentLanguage, currentTheme }: InventoryPr
 
   const handleShare = async (vehicle: Vehicle) => {
     const shareText = currentLanguage === 'en'
-      ? `Check out this pre-owned certified ${vehicle.make} ${vehicle.model} (${vehicle.year}) at Balaji Enterprises! Price: ${formatPrice(vehicle.price, 'en')}. Excellent condition with ${formatMileage(vehicle.mileage, 'en')} mileage. Call +918318914223 to book a test drive!`
-      : `बालाजी एंटरप्राइजेज पर इस प्रामाणिक पुरानी ${vehicle.make} ${vehicle.model} (${vehicle.year}) को देखें! कीमत: ${formatPrice(vehicle.price, 'hi')}। बहुत ही अच्छी स्थिति, सिर्फ ${formatMileage(vehicle.mileage, 'hi')} चली हुई। टेस्ट ड्राइव के लिए +918318914223 पर कॉल करें!`;
+      ? `Check out this pre-owned certified ${vehicle.make} ${vehicle.model} (${vehicle.year}) at AFSAR Auto Sales! Price: ${formatPrice(vehicle.price, 'en')}. Excellent condition with ${formatMileage(vehicle.mileage, 'en')} mileage. Call +918318914223 to book a test drive!`
+      : `अफसर ऑटो सेल्स पर इस प्रामाणिक पुरानी ${vehicle.make} ${vehicle.model} (${vehicle.year}) को देखें! कीमत: ${formatPrice(vehicle.price, 'hi')}। बहुत ही अच्छी स्थिति, सिर्फ ${formatMileage(vehicle.mileage, 'hi')} चली हुई। टेस्ट ड्राइव के लिए +918318914223 पर कॉल करें!`;
 
     if (navigator.share) {
       try {

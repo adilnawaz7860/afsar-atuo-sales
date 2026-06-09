@@ -82,7 +82,7 @@ brandName: "AFSAR Auto Sales",
     aboutSubtitle: "Building lifelong relations through trust and auto mechanics excellence since 2012.",
     aboutOwnerName: "Mr. Rajesh Kumar Verma",
     aboutOwnerRole: "Founder & Proprietor",
-    aboutStoryParagraph1: "After working for 14 years as a lead diesel mechanic in Indian transport corporations, I started Balaji Enterprises in 2012. Our goal was simple: to provide honest, mechanically-certified vehicles that hardworking families, auto driver brothers, and small logistic business owners can rely on without fear of hidden breakdowns.",
+    aboutStoryParagraph1: "After working for 14 years as a lead diesel mechanic in Indian transport corporations, I started Afsar Auto Sales in 2012. Our goal was simple: to provide honest, mechanically-certified vehicles that hardworking families, auto driver brothers, and small logistic business owners can rely on without fear of hidden breakdowns.",
     aboutStoryParagraph2: "Every single auto-rickshaw, Maruti car, or Mahindra mini-truck listed here undergoes a personal engine test and sound-check by me before we list it for sale. We don't sell junk; we sell livelihood.",
     aboutTrust1Title: "Rajesh's personal Seal of Quality",
     aboutTrust1Desc: "Each carburetor, clutch, suspension, and gearbox is fully inspected.",
@@ -193,12 +193,12 @@ contactHoursValue: "Monday - Sunday: 9:00 AM - 8:30 PM",
     aboutSubtitle: "साल 2012 से भरोसे और दमदार मैकेनिकल सर्विस के साथ अटूट संबंध।",
     aboutOwnerName: "श्री राजेश कुमार वर्मा",
     aboutOwnerRole: "संस्थापक एवं प्रोपराइटर",
-    aboutStoryParagraph1: "भारतीय परिवहन निगमों में 14 वर्षों तक मुख्य डीजल मैकेनिक के रूप में काम करने के बाद, मैंने 2012 में बालाजी एंटरप्राइजेज की शुरुआत की। हमारा उद्देश्य सीधा था: ईमानदार, मैकेनिकल-प्रमाणित गाड़ियाँ प्रदान करना, जिन पर हमारे मेहनती परिवार, ऑटो चालक भाई और छोटे व्यापारी बिना किसी डर के भरोसा कर सकें।",
+    aboutStoryParagraph1: "भारतीय परिवहन निगमों में 14 वर्षों तक मुख्य डीजल मैकेनिक के रूप में काम करने के बाद, मैंने 2012 में AFSAR Auto Sales की शुरुआत की। हमारा उद्देश्य सीधा था: ईमानदार, मैकेनिकल-प्रमाणित गाड़ियाँ प्रदान करना, जिन पर हमारे मेहनती परिवार, ऑटो चालक भाई और छोटे व्यापारी बिना किसी डर के भरोसा कर सकें।",
     aboutStoryParagraph2: "यहाँ सूचीबद्ध हर एक ऑटो-रिक्शा, मारुति कार, या महिंद्रा मिनी-ट्रक बिक्री के लिए उपलब्ध कराने से पहले मेरे द्वारा व्यक्तिगत रूप से इंजन टेस्ट और साउंड-चेक किया जाता है। हम कबाड़ नहीं बेचते; हम आजीविका और विश्वास बेचते हैं।",
     aboutTrust1Title: "राजेश का व्यक्तिगत क्वालिटी सील",
-    aboutTrust1Desc: "हर कार्बोरेटर, क्लच, सस्पेंशन और गियरबॉक्स की पूरी गहन जांच की जाती है।",
-    aboutTrust2Title: "साफ और पक्के दस्तावेज का वादा",
-    aboutTrust2Desc: "बिना किसी दलाल शुल्क के आरसी (RC) ट्रांसफर और कमर्शियल परमिट का पूरा काम हम संभालते हैं।",
+    aboutTrust1Desc: "हर कार्बोरेटर, क्लच, सस्पेंशन और গিয়রবক্স কি পূর্ণ গভীর পরীক্ষা করা হয়।",
+    aboutTrust2Title: "সাফ এবং পক্কে দস্তাবেজের ওয়াদা",
+    aboutTrust2Desc: "বিনা কোনও দলাল শুল্কের মধ্যে RC (RC) ট্রান্সফার এবং কমার্শিয়াল পারমিটের সম্পূর্ণ কাজটি আমরা সংগৃহীত হই।",
     aboutTrust3Title: "सही एक्सचेंज वैल्यू",
     aboutTrust3Desc: "अपने पुराने दोपहिया या तिपहिया वाहन का तुरंत सर्वोत्तम एक्सचेंज मूल्य प्राप्त करें।",
 
@@ -219,6 +219,6 @@ contactHoursValue: "सोमवार - रविवार: सुबह 9:00 �
     contactFormSuccess: "धन्यवाद! आपकी पूछताछ दर्ज कर ली गई है। हम शीघ्र ही आपसे संपर्क करेंगे।",
 
     // Footer
-    footerCopy: "© 2026 बालाजी एंटरप्राइजेज। सर्वाधिकार सुरक्षित।"
+    footerCopy: "© 2026 अफसर ऑटो सेल्स। सर्वाधिकार सुरक्षित।"
   }
 };

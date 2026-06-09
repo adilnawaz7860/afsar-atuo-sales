@@ -54,12 +54,12 @@ export default function Hero({ currentLanguage, currentTheme, setActiveTab }: He
                 {currentLanguage === 'en' ? (
                   <>
                     OWN YOUR <span className="text-amber-500">LIVELIHOOD.</span> <br />
-                    <span className="bold-stroke block mt-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-slate-400">BALAJI ENTERPRISES LUCKNOW.</span>
+                    <span className="bold-stroke block mt-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-slate-400">AFSAR AUTO SALES LUCKNOW.</span>
                   </>
                 ) : (
                   <>
                     अपनी खुद की <span className="text-amber-500">कमाई गाड़ी।</span> <br />
-                    <span className="bold-stroke block mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-slate-400">बालाजी एंटरप्राइजेज का सच्चा भरोसा।</span>
+                    <span className="bold-stroke block mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-slate-400">अफसर ऑटो सेल्स का सच्चा भरोसा।</span>
                   </>
                 )}
               </h1>
@@ -76,8 +76,8 @@ export default function Hero({ currentLanguage, currentTheme, setActiveTab }: He
               id="hero-subtitle"
             >
               {currentLanguage === 'en' 
-                ? "No agent commission, no hidden broker charges. Directly buy pre-owned commercial auto rickshaws, loader trucks, and verified Maruti family cars certified by Balaji Enterprises. Fast paper transfer guaranteed."
-                : "बिना किसी दलाल या कमीशन के सीधा सौदा! बालाजी एंटरप्राइजेज द्वारा जांची गई सेकंड-हैंड सीएनजी ऑटो, छोटा हाथी लोडर और प्रामाणिक फॅमिली कारें। आरसी ट्रांसफर की पूरी ज़िम्मेदारी हमारी।"}
+                ? "No agent commission, no hidden broker charges. Directly buy pre-owned commercial auto rickshaws, loader trucks, and verified Maruti family cars certified by AFSAR Auto Sales. Fast paper transfer guaranteed."
+                : "बिना किसी दलाल या कमीशन के सीधा सौदा! अफसर ऑटो सेल्स द्वारा जांची गई सेकंड-हैंड सीएनजी ऑटो, छोटा हाथी लोडर और प्रामाणिक फॅमिली कारें। आरसी ट्रांसफर की पूरी ज़िम्मेदारी हमारी।"}
             </motion.p>
 
             {/* Quick action buttons */}
@@ -112,7 +112,7 @@ export default function Hero({ currentLanguage, currentTheme, setActiveTab }: He
                 id="hero-call-btn"
               >
                 <PhoneCall className="h-5 w-5 fill-white text-green-600" />
-                <span>{currentLanguage === 'en' ? 'Call Dealership' : 'बालाजी एंटरप्राइजेज को फोन करें'}</span>
+                <span>{currentLanguage === 'en' ? 'Call Dealership' : 'अफसर ऑटो सेल्स को फोन करें'}</span>
               </a>
             </motion.div>
 
@@ -166,7 +166,7 @@ export default function Hero({ currentLanguage, currentTheme, setActiveTab }: He
                 >
                   <img
                     src="https://picsum.photos/seed/motordealer/800/450"
-                    alt="Balaji Enterprises vehicles"
+                    alt="Afsar Auto Sales Showcase"
                     className="w-full h-full object-cover opacity-90 transition-transform duration-700 hover:scale-105"
                     referrerPolicy="no-referrer"
                     id="hero-image"
@@ -174,7 +174,7 @@ export default function Hero({ currentLanguage, currentTheme, setActiveTab }: He
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent flex items-end p-4">
                     <span className="text-sm font-bold text-amber-400 flex items-center gap-1.5 bg-slate-900/90 py-1 px-3 rounded-md">
                       <ShieldCheck className="h-4 w-4" />
-                      {currentLanguage === 'en' ? 'Certified Balaji Quality Seal' : 'बालाजी क्वालिटी द्वारा प्रमाणित सील'}
+                      {currentLanguage === 'en' ? 'Certified AFSAR Quality Seal' : 'अफसर क्वालिटी द्वारा प्रमाणित सील'}
                     </span>
                   </div>
                 </motion.div>
@@ -264,7 +264,7 @@ export default function Hero({ currentLanguage, currentTheme, setActiveTab }: He
             <div>
               <h3 className="font-display font-semibold text-lg">{currentLanguage === 'en' ? "6-Month Engine Guarantee" : "6 महीने की इंजन गारंटी"}</h3>
               <p className={`text-sm ${currentTheme === 'dark' ? 'text-slate-400' : 'text-slate-600'}`}>
-                {currentLanguage === 'en' ? "Rest assured with complete engine & transmission support." : "बेफिक्र रहें, इंजन और गियरबॉक्स की पूरी गारंटी बालाजी एंटरप्राइजेज द्वारा।"}
+                {currentLanguage === 'en' ? "Rest assured with complete engine & transmission support." : "बेफिक्र रहें, इंजन और गियरबॉक्स की पूरी गारंटी अफसर ऑटो सेल्स द्वारा।"}
               </p>
             </div>
           </div>
@@ -288,7 +288,7 @@ export default function Hero({ currentLanguage, currentTheme, setActiveTab }: He
             <div>
               <h3 className="font-display font-semibold text-lg">{currentLanguage === 'en' ? "Open WhatsApp Support" : "आसान व्हाट्सएप संपर्क"}</h3>
               <p className={`text-sm ${currentTheme === 'dark' ? 'text-slate-400' : 'text-slate-600'}`}>
-                {currentLanguage === 'en' ? "Direct continuous access to Balaji Enterprises team." : "बालाजी एंटरप्राइजेज से सीधी बातचीत और गाडी देखने का समय निर्धारित करें।"}
+                {currentLanguage === 'en' ? "Direct continuous access to AFSAR Auto Sales team." : "अफसर ऑटो सेल्स से सीधी बातचीत और गाडी देखने का समय निर्धारित करें।"}
               </p>
             </div>
           </div>
